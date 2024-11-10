@@ -1,0 +1,114 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Info Section */
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .info .contact p, .info .summary p {
+    line-height: 1.6;
+  }
+  
+  /* Experience Section */
+  .experience .job {
+    margin-bottom: 20px;
+  }
+  
+  .experience h3 {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .experience span {
+    font-size: 14px;
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .experience ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .experience li {
+    margin-bottom: 5px;
+  }
+  
+  /* Skills Section */
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills li {
+    background: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Education Section */
+  .education p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
